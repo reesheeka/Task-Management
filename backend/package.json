@@ -1,0 +1,32 @@
+{
+  "name": "task-management",
+  "version": "1.0.0",
+  "description": "1. Task List UI:\r  Create an HTML page displaying a task list.\r  Style the task list using CSS, ensuring it is visually appealing and easy to read.\r 2. Excel File Upload Form:\r  Extend the HTML form to include an input element of type file for uploading an\r Excel file.\r  Style the form to ensure it is user-friendly.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reesheeka/Task-Management.git"
+  },
+  "author": "Rishika Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reesheeka/Task-Management/issues"
+  },
+  "homepage": "https://github.com/reesheeka/Task-Management#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "exceljs": "^4.4.0",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.2",
+    "multer": "^1.4.5-lts.1",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
